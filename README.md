@@ -18,3 +18,7 @@
 | `mkdir -p dossier1/dossier2`  | Crée un dossier avec ses sous-dossiers| `mkdir -p projet/docs`|
 | `rmdir dossier`| Supprime un dossier vide| `rmdir dossier_vide`|
 | `rm -r dossier`| Supprime un dossier et son contenu | `rm -r projet`|
+|`rm fichier`| Supprime un fichier | `rm fichier.txt` |
+|`touch fichier.txt`| Crée un fichier vide | `touch nouveau_fichier.txt`|
+|`cp fichier destination`| Copie un fichier| `cp fichier.txt /home/user/docs/`|
+|`cp -r dossier destination`| Copie un dossier | `cp -r projet /home/user/backup/` | 
