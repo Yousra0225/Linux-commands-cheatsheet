@@ -14,3 +14,7 @@
 |`cd ~`|Va dans le dossier personnel de l'utilisateur |`$HOME`|
 |`cd dossier`| Accède à un répertoire spécifique| `cd /chemin/vers/dossier`|
 |`mv fichier`|Déplace ou renomme un fichier|`mv fichier.txt /home/user/docs/`|
+| `mkdir projet`| Crée un dossier| `mkdir projet`|
+| `mkdir -p dossier1/dossier2`  | Crée un dossier avec ses sous-dossiers| `mkdir -p projet/docs`|
+| `rmdir dossier`| Supprime un dossier vide| `rmdir dossier_vide`|
+| `rm -r dossier`| Supprime un dossier et son contenu | `rm -r projet`|
