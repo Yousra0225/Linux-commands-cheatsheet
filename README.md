@@ -15,7 +15,6 @@
 |`cp -r dossier destination`| Copie un dossier | `cp -r projet /home/user/backup/` | 
 
 
-
 ### Manipulation de fichiers
 
 | Commande | Description | Exemple |
@@ -28,6 +27,14 @@
 <ins>`TEXTE`</ins>` > `<ins>`FICHIER`</ins> | Insère le texte (en dur, d'une commande) au fichier. | `head README.md -n 5 > test.txt`<br>Copie les 5 premières lignes de README.md dans le fichier test.txt.
 
 ### Permissions
+
+| Commande             | Description                                          | Exemple           |
+| -------------------- | ---------------------------------------------------- | ----------------- |
+| `sudo`               | Exécuter une commande en tant que super utilisateur. | `sudo apt update` |
+| `su - [Utilisateur]` | Changer d'utilisateur.                               | `su - root`       |
+| `visudo`             | Modifier le fichier sudoers.                         | `visudo`               |
+| `chmod`              | Modifier les permissions d'un utilisateur.           | `chmod 700 [file.txt]` 700 : utilisateur = r, w, x. groupe et autre n'ont pas de permission |
+| `ls -l`              | Vérifier les permissions d'un dossier ou fichier.    | `ls -l [file.txt]`     |
 
 ### Raccourcis
 #### Raccourcis pour Bash
@@ -121,7 +128,26 @@
 
 ### Divers
 
+| Commande      | Description                                   | Exemple                               |
+| ------------- | --------------------------------------------- | ------------------------------------- |
+| `alias`       | Création d'alias.                             | `alias grc='gh repo create'`          |
+| `grep`        | Rechercher un mot dans un dossier ou fichier. | `grep "hey" file.txt`                 |
+| `find`        | Trouver un fichier.                           | `find . -type f -name "*.txt"`        |
+| `curl -0 URL` | Télécharger un fichier.                       | `curl -O http://example.com/file.zip` |
+| `tar`         | Archivage et compression.                     | `tar -xvf archive.tar`                |
+
 ## Bash vs zsh
+
+Bash est le shell par défaut sur plusieurs types de distributions Linux, il existe d'autres shells comme zsh, fish, dash etc...
+
+### Comparaison des fonctionnalités
+
+| Fonctionnalité      | Bash                                   | Zsh                               |
+| ------------- | --------------------------------------------- | ------------------------------------- |
+| Auto-complétion       | Basique                             | Très avancée et personnalisable          |
+| Correction automatique       | Non                             |  Oui         |
+| Plugins et thèmes       | Non                             |  Oui         |
+| Personnalisation       | Limitée                             |  Beaucoup d'options disponibles         |
 
 ### Installation
 
