@@ -2,7 +2,7 @@
 
 ## Sommaire
 * [Commandes](#commandes)
-    * [Navigation / Gestion de dossier](#navigation--gestion-de-dossiers)
+    * [Navigation / Gestion de dossiers](#navigation--gestion-de-dossiers)
     * [Manipulation de fichiers](#manipulation-de-fichiers)
     * [Permissions](#permissions)
     * [Raccourcis](#raccourcis)
