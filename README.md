@@ -1,10 +1,10 @@
-# Linux terminal cheat sheet
+# Linux terminal cheatsheet
 
-## Commands
+## Commandes
 
-### Navigation / Gestion de dossier
+### Navigation / Gestion de dossiers
 
-### Manipulation de fichier
+### Manipulation de fichiers
 
 ### Permissions
 
@@ -12,7 +12,7 @@
 
 ### Divers
 
-## Les différents type de shell
+## Bash vs zsh
 
 ### Installation
 
