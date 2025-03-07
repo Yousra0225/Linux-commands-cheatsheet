@@ -11,8 +11,9 @@
 | Commande             | Description                                          | Exemple           |
 | -------------------- | ---------------------------------------------------- | ----------------- |
 | `sudo`               | Exécuter une commande en tant que super utilisateur. | `sudo apt update` |
-| `su - [Utilisateur]` | Changer d'utilisateur.                               | `su - root`       || `visudo`             | Modifier le fichier sudoers.                         | `visudo`               |
-| `chmod`              | Modifier les permissions d'un utilisateur.           | `chmod 700 [file.txt]` |
+| `su - [Utilisateur]` | Changer d'utilisateur.                               | `su - root`       |
+| `visudo`             | Modifier le fichier sudoers.                         | `visudo`               |
+| `chmod`              | Modifier les permissions d'un utilisateur.           | `chmod 700 [file.txt]` 700 : utilisateur = r, w, x. groupe et autre n'ont pas de permission |
 | `ls -l`              | Vérifier les permissions d'un dossier ou fichier.    | `ls -l [file.txt]`     |
 
 ### Raccourcis
