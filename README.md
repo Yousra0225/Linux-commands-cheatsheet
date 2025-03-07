@@ -43,7 +43,9 @@
 | Raccourcis | Description                                                  |
 | ---------- | ------------------------------------------------------------ |
 | Alt + W    | Effacer de la position du curseur jusqu'au début de la ligne |
-| CTRL + X,V | Mode Vi                                                      |
+| CTRL + X + CTRL + E | Démarrer l'éditeur texte par défaut                 |
+| CTRL + X + CTRL + X | Sélectionner la ligne du début jusqu'à la position du curseur |
+
 
 
 #### Raccourcis Nano
