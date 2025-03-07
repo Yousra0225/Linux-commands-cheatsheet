@@ -63,7 +63,7 @@
 | CTRL + 6            | Créer un bloc de texte pour qu'il soit copié ou coupé                   |
 | CTRL + 6 & CTRL + K | Couper/Effacer le bloc de texte                                         |
 | Alt + 6             | Copier le bloc de texte                                                 |
-| CTRL + W            | Rechercher une du contenu dans le texte                                 |
+| CTRL + W            | Rechercher du contenu dans le texte                                 |
 | Alt + W             | Rechercher et remplacer du contenu                                      |
 | Alt + R             | Répéter la précédente recherche                                         |
 
