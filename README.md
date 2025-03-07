@@ -13,6 +13,7 @@
 |`ls -a`|Affiche les fichiers et dossiers, y compris les fichiers cachés|`ls -a` : `.fichier`|
 |`ls -R`|Affiche les fichiers et sous-dossiers récursivement|`ls -R` : `dossier1 fichier1 -> dossier1 -> dossier2 fichier2 ...`|
 |`cd ..`| Revenir au répértoire parent| `cd ..`|
+|`cd /`|Va à la racine du système|`cd /`|
 
 ### Manipulation de fichiers
 
