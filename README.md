@@ -16,7 +16,7 @@
 |`cd /`|Va à la racine du système|`cd /`|
 |`cd ~`|Va dans le dossier personnel de l'utilisateur |`$HOME`|
 |`cd dossier`| Accède à un répertoire spécifique| `cd /chemin/vers/dossier`|
-
+|`mv fichier`|Déplace ou renomme un fichier|`mv fichier.txt /home/user/docs/`|
 
 ### Manipulation de fichiers
 
