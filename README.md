@@ -23,7 +23,7 @@ Bash est le shell par défaut sur plusieurs types de distributions Linux, il exi
 | Auto-complétion       | Basique                             | Très avancée et personnalisable          |
 | Correction automatique       | Non                             |  Oui         |
 | Plugins et thèmes       | Non                             |  Oui         |
-| Personnalisation       | Limitée                             |  Beaucoup d'options disponible         |
+| Personnalisation       | Limitée                             |  Beaucoup d'options disponibles         |
 
 ### Installation
 
