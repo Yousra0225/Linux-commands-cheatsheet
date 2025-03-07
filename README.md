@@ -38,7 +38,24 @@
 | CTRL + N   | Aller à la prochaine commande dans l'historique |
 | CTRL + C   | Arrêter la commande en cours                    |
 
-
+#### Raccourcis Nano
+| Raccourcis          | Description                                                             |
+| ------------------- | ----------------------------------------------------------------------- |
+| CTRL + O            | Sauvegarder le fichier                                                  |
+| CTRL + X            | Quitter Nano (avec proposition de sauvegarde si fichier non sauvegardé) |
+| CTRL + Y            | Remonter d'une page                                                     |
+| CTRL + V            | Descendre d'une page                                                    |
+| Alt + \             | Aller à une ligne spécifique                                            |
+| Alt + ,             | Aller au début de la ligne                                              |
+| Alt + .             | Aller à la fin de la ligne                                              |
+| CTRL + K            | Couper/Effacer à partir du curseur jusqu'à la fin de la ligne           |
+| CTRL + U            | Annuler couper/Restaurer le texte coupé                                 |
+| CTRL + 6            | Créer un bloc de texte pour qu'il soit copié ou coupé                   |
+| CTRL + 6 & CTRL + K | Couper/Effacer le bloc de texte                                         |
+| Alt + 6             | Copier le bloc de texte                                                 |
+| CTRL + W            | Rechercher une du contenu dans le texte                                 |
+| Alt + W             | Rechercher et remplacer du contenu                                      |
+| Alt + R             | Répéter la précédente recherche                                         |
 
 ### Divers
 
