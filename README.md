@@ -29,13 +29,6 @@
 | CTRL + Y | Coller le dernier contenu coupé                                             |
 | CTRL + L | Vider le terminal                                                           |
 
-#### Raccourcis zsh
-**Note :** les raccourcis zsh sont majoritairement similaire à ceux de Bash.
-| Raccourcis | Description                                                  |
-| ---------- | ------------------------------------------------------------ |
-| Alt + W    | Effacer de la position du curseur jusqu'au début de la ligne |
-| CTRL + X,V | Mode Vi                                                      |
-
 
 | Historique | Description                                     |
 | ---------- | ----------------------------------------------- |
@@ -44,6 +37,14 @@
 | CTRL + P   | Donner la précédente commande dans l'historique |
 | CTRL + N   | Aller à la prochaine commande dans l'historique |
 | CTRL + C   | Arrêter la commande en cours                    |
+
+#### Raccourcis zsh
+**Note :** les raccourcis zsh sont majoritairement similaire à ceux de Bash.
+| Raccourcis | Description                                                  |
+| ---------- | ------------------------------------------------------------ |
+| Alt + W    | Effacer de la position du curseur jusqu'au début de la ligne |
+| CTRL + X,V | Mode Vi                                                      |
+
 
 #### Raccourcis Nano
 | Raccourcis          | Description                                                             |
