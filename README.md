@@ -16,6 +16,10 @@
 |`cd /`|Va à la racine du système|`cd /`|
 |`cd ~`|Va dans le dossier personnel de l'utilisateur |`user/home`|
 |`cd dossier`| Accède à un répertoire spécifique| `cd /chemin/vers/dossier`|
+| `mkdir projet`| Crée un dossier| `mkdir projet`|
+| `mkdir -p dossier1/dossier2`  | Crée un dossier avec ses sous-dossiers| `mkdir -p projet/docs`|
+| `rmdir dossier`| Supprime un dossier vide| `rmdir dossier_vide`|
+| `rm -r dossier`| Supprime un dossier et son contenu | `rm -r projet`|
 
 
 ### Manipulation de fichiers
@@ -123,7 +127,26 @@
 
 ### Divers
 
+| Commande      | Description                                   | Exemple                               |
+| ------------- | --------------------------------------------- | ------------------------------------- |
+| `alias`       | Création d'alias.                             | `alias grc='gh repo create'`          |
+| `grep`        | Rechercher un mot dans un dossier ou fichier. | `grep "hey" file.txt`                 |
+| `find`        | Trouver un fichier.                           | `find . -type f -name "*.txt"`        |
+| `curl -0 URL` | Télécharger un fichier.                       | `curl -O http://example.com/file.zip` |
+| `tar`         | Archivage et compression.                     | `tar -xvf archive.tar`                |
+
 ## Bash vs zsh
+
+Bash est le shell par défaut sur plusieurs types de distributions Linux, il existe d'autres shells comme zsh, fish, dash etc...
+
+### Comparaison des fonctionnalités
+
+| Fonctionnalité      | Bash                                   | Zsh                               |
+| ------------- | --------------------------------------------- | ------------------------------------- |
+| Auto-complétion       | Basique                             | Très avancée et personnalisable          |
+| Correction automatique       | Non                             |  Oui         |
+| Plugins et thèmes       | Non                             |  Oui         |
+| Personnalisation       | Limitée                             |  Beaucoup d'options disponibles         |
 
 ### Installation
 
