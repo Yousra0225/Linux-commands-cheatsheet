@@ -182,7 +182,12 @@ Ceci changera le shell par défaut pour cet utilisateur à zsh.
 
 ## Frameworks
 
-### Installation 
+#### Bash-it :  [documentation](https://github.com/Bash-it/bash-it)
+*Bash-it est un framework open source pour configurer le shell Bash, Bash-it apporte plus de fonctionnalités tel que : les alias, l'auto-complétion, plugins, thèmes etc.*
+
+#### Installation avec cURL : `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+#### Installation avec Wget : `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
 #### 🚀 Oh My Zsh :  [documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
 *Oh My Zsh est un framework open source et communautaire pour gérer la configuration Zsh, qui améliore Zsh avec des thèmes, des plugins et une configuration optimisée, rendant le terminal plus puissant et agréable à utiliser.*
 
