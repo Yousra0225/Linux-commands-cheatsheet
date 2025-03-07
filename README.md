@@ -138,6 +138,7 @@
 
 | Commande      | Description                                   | Exemple                               |
 | ------------- | --------------------------------------------- | ------------------------------------- |
+| `man `<ins>`[COMMANDE]`</ins> | Affiche le manuel d'une commande | `man man`<br>Affiche le manuel de man |
 | `alias`       | Création d'alias.                             | `alias grc='gh repo create'`          |
 | `grep`        | Rechercher un mot dans un dossier ou fichier. | `grep "hey" file.txt`                 |
 | `find`        | Trouver un fichier.                           | `find . -type f -name "*.txt"`        |
