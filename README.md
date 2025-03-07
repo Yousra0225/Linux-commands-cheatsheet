@@ -19,6 +19,7 @@
 | CTRL + F   | Se déplacer d'un caractère en avant   |
 | ALT + B    | Se déplacer d'un mot en arrière       |
 | ALT + F    | Se déplacer d'un mot en avant         |
+| Tab        | Auto-complétion                       |
 
 
 | Édition  | Description                                                                 |
@@ -40,10 +41,10 @@
 
 #### Raccourcis zsh
 **Note :** les raccourcis zsh sont majoritairement similaire à ceux de Bash.
-| Raccourcis | Description                                                  |
-| ---------- | ------------------------------------------------------------ |
-| Alt + W    | Effacer de la position du curseur jusqu'au début de la ligne |
-| CTRL + X + CTRL + E | Démarrer l'éditeur texte par défaut                 |
+| Raccourcis          | Description                                                   |
+| ------------------- | ------------------------------------------------------------- |
+| Alt + W             | Effacer de la position du curseur jusqu'au début de la ligne  |
+| CTRL + X + CTRL + E | Démarrer l'éditeur texte par défaut                           |
 | CTRL + X + CTRL + X | Sélectionner la ligne du début jusqu'à la position du curseur |
 
 
@@ -63,7 +64,7 @@
 | CTRL + 6            | Créer un bloc de texte pour qu'il soit copié ou coupé                   |
 | CTRL + 6 & CTRL + K | Couper/Effacer le bloc de texte                                         |
 | Alt + 6             | Copier le bloc de texte                                                 |
-| CTRL + W            | Rechercher du contenu dans le texte                                 |
+| CTRL + W            | Rechercher du contenu dans le texte                                     |
 | Alt + W             | Rechercher et remplacer du contenu                                      |
 | Alt + R             | Répéter la précédente recherche                                         |
 
