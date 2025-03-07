@@ -182,7 +182,7 @@ Ceci changera le shell par défaut pour cet utilisateur à zsh.
 
 ## Frameworks
 
-#### Bash-it :  [documentation](https://github.com/Bash-it/bash-it)
+### Bash-it :
 *Bash-it est un framework open source pour configurer le shell Bash, Bash-it apporte plus de fonctionnalités tel que : les alias, l'auto-complétion, plugins, thèmes etc.*
 
 #### Installation avec curl
@@ -198,6 +198,19 @@ Ceci changera le shell par défaut pour cet utilisateur à zsh.
 ```bash
  ~/.bash_it/install.sh
 ```
+
+#### Configurer un alias
+```bash
+alias gc="git commit -m"
+```
+#### Activer un thème : 
+```bash
+bash-it theme set BarbUk
+```
+
+![BarbUk](src/bash-it-barbuk.png)
+
+[🔗​ Bash-it documentation](https://github.com/Bash-it/bash-it)
 
 
 #### 🚀 Oh My Zsh :  [documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
