@@ -1,5 +1,23 @@
 # Linux terminal cheatsheet
 
+## Sommaire
+* [Commandes](#commandes)
+    * [Navigation / Gestion de dossier](#navigation--gestion-de-dossiers)
+    * [Manipulation de fichiers](#manipulation-de-fichiers)
+    * [Permissions](#permissions)
+    * [Raccourcis](#raccourcis)
+        * [Raccourcis Bash](#raccourcis-pour-bash)
+        * [Raccourcis zsh](#raccourcis-zsh)
+        * [Raccourcis Nano](#raccourcis-nano)
+        * [Raccourcis Vim](#raccourcis-vim)
+    * [Divers](#divers)
+* [Bash vs zsh](#bash-vs-zsh)
+    * [Comparaison des fonctionnalités](#comparaison-des-fonctionnalités)
+    * [Installation](#installation)
+* [Frameworks](#frameworks)
+    * [Installation](#installation-1)
+
+
 ## Commandes
 
 ### Navigation / Gestion de dossiers
