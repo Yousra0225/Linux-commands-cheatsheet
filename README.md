@@ -167,6 +167,17 @@ Bash est le shell par défaut sur plusieurs types de distributions Linux, il exi
 | **Bash** | `sudo apt install bash`| `sudo pacman -S bash`| `brew install bash`| [Documentation GNU Bash](https://www.gnu.org/doc/doc.html) |
 | **Zsh**  | `sudo apt install zsh`| `sudo pacman -S zsh`| `brew install zsh`| [Documentation Zsh](https://zsh.sourceforge.io/Doc/)                    |
 
+Une fois l'installation faite, utiliser la commande `chsh` pour changer le shell utilisé par défaut. Un menu apparaîtra qui demandera le chemin du shell à utiliser.
+Alternativement, utiliser `chsh -s `<ins>`PATH_AU_SHELL`</ins> 
+
+Une fois le shell modifié, se déconnecter et se reconnecter. En ouvrant le shell, le changement devrait être apparent, mais si ce n'est pas évident, écrire `echo $SHELL` pour s'en assurer.
+
+Par exemple, pour zsh:
+1. Utiliser `chsh`
+2. Dans le prompt, écrire `/bin/zsh`
+3. Se déconnecter et se reconnecter
+
+Ceci changera le shell par défaut pour cet utilisateur à zsh.
 
 
 ## Frameworks
