@@ -168,4 +168,35 @@ Bash est le shell par défaut sur plusieurs types de distributions Linux, il exi
 
 ## Frameworks
 
-### Installation
+### Installation : 
+#### 🚀 Oh My Zsh :  [documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
+*Oh My Zsh est un framework open source et communautaire pour gérer la configuration Zsh, qui améliore Zsh avec des thèmes, des plugins et une configuration optimisée, rendant le terminal plus puissant et agréable à utiliser.
+
+##### installation avec cURL : `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+##### installation avec Wget : `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+#### Personalisation et Configuration : 
+
+*Exemple :* 
+```bash
+# Modification de thème
+ZSH_THEME="robbyrussel"  # Remplace "robbyrussel" par le thème de ton choix par exemple : agnoster
+# Ajout des plugins
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+# Activation de la correction automatique
+setopt correct
+# Définition des alias utiles
+alias ll="ls -lah"
+alias gs="git status"
+alias ..="cd .."
+# Appliquation des modifications après changement
+source ~/.zshrc
+```
+*Aperçu* : 
+
+![omzsh](src/omzsh.png)
+
+
+
+
+
