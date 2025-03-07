@@ -190,6 +190,15 @@ Ceci changera le shell par défaut pour cet utilisateur à zsh.
  sh -c "$(curl -fsSL https://raw.githubusercontent.com/Bash-it/bash-it/master/install.sh)"
 ```
 
+#### Installation avec git
+```bash
+ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+```
+
+```bash
+ ~/.bash_it/install.sh
+```
+
 
 #### 🚀 Oh My Zsh :  [documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
 *Oh My Zsh est un framework open source et communautaire pour gérer la configuration Zsh, qui améliore Zsh avec des thèmes, des plugins et une configuration optimisée, rendant le terminal plus puissant et agréable à utiliser.*
