@@ -14,6 +14,8 @@
 
 ## Bash vs zsh
 
+Bash est le shell par défaut sur plusieurs types de distributions Linux, il existe d'autres shells comme zsh, fish, dash etc...
+
 ### Installation
 
 ## Frameworks
