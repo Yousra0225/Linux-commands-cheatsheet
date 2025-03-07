@@ -159,6 +159,14 @@ Bash est le shell par défaut sur plusieurs types de distributions Linux, il exi
 
 ### Installation
 
+
+| Outil  | Debian/Ubuntu (`apt`)| Arch Linux (`pacman`)| macOS (`brew`)| Documentation|
+|--------|----------------------|----------------------|---------------|--------------|
+| **Bash** | `sudo apt install bash`| `sudo pacman -S bash`| `brew install bash`| [Documentation GNU Bash](https://www.gnu.org/doc/doc.html) |
+| **Zsh**  | `sudo apt install zsh`| `sudo pacman -S zsh`| `brew install zsh`| [Documentation Zsh](https://zsh.sourceforge.io/Doc/)                    |
+
+
+
 ## Frameworks
 
 ### Installation
