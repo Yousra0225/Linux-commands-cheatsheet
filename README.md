@@ -14,6 +14,9 @@
 |`ls -R`|Affiche les fichiers et sous-dossiers récursivement|`ls -R` : `dossier1 fichier1 -> dossier1 -> dossier2 fichier2 ...`|
 |`cd ..`| Revenir au répértoire parent| `cd ..`|
 |`cd /`|Va à la racine du système|`cd /`|
+|`cd ~`|Va dans le dossier personnel de l'utilisateur |`$HOME`|
+|`cd dossier`| Accède à un répertoire spécifique| `cd /chemin/vers/dossier`|
+
 
 ### Manipulation de fichiers
 
