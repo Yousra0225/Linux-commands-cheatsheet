@@ -12,7 +12,6 @@
 |`ls -l`|Affiche les fichiers avec des détails supplémentaires|`ls -l` : `taille permission ...`|
 |`ls -a`|Affiche les fichiers et dossiers, y compris les fichiers cachés|`ls -a` : `.fichier`|
 |`ls -R`|Affiche les fichiers et sous-dossiers récursivement|`ls -R` : `dossier1 fichier1 -> dossier1 -> dossier2 fichier2 ...`|
-|`rm fichier`| Supprime un fichier | `rm fichier.txt` |
 |`cp -r dossier destination`| Copie un dossier | `cp -r projet /home/user/backup/` | 
 
 
