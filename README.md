@@ -183,7 +183,7 @@ Ceci changera le shell par défaut pour cet utilisateur à zsh.
 ## Frameworks
 
 ### Bash-it :
-*Bash-it est un framework open source pour configurer le shell Bash, Bash-it apporte plus de fonctionnalités tel que : les alias, l'auto-complétion, plugins, thèmes etc.*
+*Bash-it est un framework open source pour configurer le shell Bash, Bash-it apporte plus de fonctionnalités tel que : alias prédéfinis, l'auto-complétion, plugins, thèmes etc.*
 
 #### Installation avec curl
 ```bash
@@ -199,9 +199,23 @@ Ceci changera le shell par défaut pour cet utilisateur à zsh.
  ~/.bash_it/install.sh
 ```
 
-#### Configurer un alias
+#### Quelques alias prédéfinis dans bash-it
+
+Premierement il faut activer les alias que l'on souhaite utiliser, par exemple pour utiliser les alias git, docker et node (npm) :
 ```bash
-alias gc="git commit -m"
+bash-it enable alias git
+bash-it enable alias docker
+bash-it enable alias npm
+```
+
+```bash
+# Quelques alias pour git
+gcl='git clone'
+ga='git add'
+gst='git status'
+gcm='git commit -m'
+gco='git checkout'
+gl='git pull'
 ```
 #### Activer un thème : 
 ```bash
