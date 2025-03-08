@@ -216,6 +216,14 @@ gst='git status'
 gcm='git commit -m'
 gco='git checkout'
 gl='git pull'
+
+# Quelques alias pour docker
+dki='docker images'
+dklog='docker logs'
+dkexec='docker exec -it'
+dkrun='docker run -it --rm'
+dkbuild='docker build'
+dkcompose='docker-compose'
 ```
 #### Activer un thème : 
 ```bash
