@@ -209,7 +209,9 @@ bash-it enable alias npm
 ```
 
 ```bash
-# Quelques alias pour git
+#Quelques alias bash-it prédéfinis
+
+## Git
 gcl='git clone'
 ga='git add'
 gst='git status'
@@ -217,13 +219,22 @@ gcm='git commit -m'
 gco='git checkout'
 gl='git pull'
 
-# Quelques alias pour docker
+## Docker
 dki='docker images'
 dklog='docker logs'
 dkexec='docker exec -it'
 dkrun='docker run -it --rm'
 dkbuild='docker build'
 dkcompose='docker-compose'
+
+## Node
+n='npm'
+ni='npm install'
+nrb='npm run build'
+nrd='npm run dev'
+nrt='npm run test'
+nrs='npm start'
+
 ```
 #### Activer un thème : 
 ```bash
