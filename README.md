@@ -200,7 +200,70 @@ Ceci changera le shell par défaut pour cet utilisateur à zsh.
 
 ## Frameworks
 
-### Installation 
+### Bash-it :
+*Bash-it est un framework open source pour configurer le shell Bash, Bash-it apporte plus de fonctionnalités tel que : alias prédéfinis, l'auto-complétion, plugins, thèmes etc.*
+
+#### Installation avec curl
+```bash
+ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Bash-it/bash-it/master/install.sh)"
+```
+
+#### Installation avec git
+```bash
+ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+```
+
+```bash
+ ~/.bash_it/install.sh
+```
+
+#### Quelques alias prédéfinis dans bash-it
+
+Premierement il faut activer les alias que l'on souhaite utiliser, par exemple pour utiliser les alias git, docker et node (npm) :
+```bash
+bash-it enable alias git
+bash-it enable alias docker
+bash-it enable alias npm
+```
+
+```bash
+#Quelques alias bash-it prédéfinis
+
+## Git
+gcl='git clone'
+ga='git add'
+gst='git status'
+gcm='git commit -m'
+gco='git checkout'
+gl='git pull'
+
+## Docker
+dki='docker images'
+dklog='docker logs'
+dkexec='docker exec -it'
+dkrun='docker run -it --rm'
+dkbuild='docker build'
+dkcompose='docker-compose'
+
+## Node
+n='npm'
+ni='npm install'
+nrb='npm run build'
+nrd='npm run dev'
+nrt='npm run test'
+nrs='npm start'
+
+```
+#### Activer un thème : 
+```bash
+bash-it theme set BarbUk
+```
+
+![BarbUk](src/bash-it-barbuk.png)
+
+[🔗​ Bash-it documentation](https://bash-it.readthedocs.io/en/latest/)
+
+
 #### 🚀 Oh My Zsh :  [documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
 *Oh My Zsh est un framework open source et communautaire pour gérer la configuration Zsh, qui améliore Zsh avec des thèmes, des plugins et une configuration optimisée, rendant le terminal plus puissant et agréable à utiliser.*
 
