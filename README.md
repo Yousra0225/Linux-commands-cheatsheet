@@ -243,7 +243,7 @@ bash-it theme set BarbUk
 
 ![BarbUk](src/bash-it-barbuk.png)
 
-[🔗​ Bash-it documentation](https://github.com/Bash-it/bash-it)
+[🔗​ Bash-it documentation](https://bash-it.readthedocs.io/en/latest/)
 
 
 #### 🚀 Oh My Zsh :  [documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
