@@ -1,20 +1,20 @@
 # Linux terminal cheatsheet
 
 ## 📌 Sommaire
-* [🔧 Commandes](#🔧-commandes)
-    * [📁 Navigation / Gestion de dossiers](#📁-navigation--gestion-de-dossiers)
-    * [📝 Manipulation de fichiers](#📝-manipulation-de-fichiers)
-    * [🔐 Permissions](#🔐-permissions)
-    * [⌨️ Raccourcis](#⌨️-raccourcis)
+* [🔧 Commandes](#-commandes)
+    * [📁 Navigation / Gestion de dossiers](#-navigation--gestion-de-dossiers)
+    * [📝 Manipulation de fichiers](#-manipulation-de-fichiers)
+    * [🔐 Permissions](#-permissions)
+    * [⌨ Raccourcis](#-raccourcis)
         * [Raccourcis Bash](#raccourcis-pour-bash)
         * [Raccourcis zsh](#raccourcis-zsh)
         * [Raccourcis Nano](#raccourcis-nano)
         * [Raccourcis Vim](#raccourcis-vim)
-    * [🗃️ Divers](#🗃️-divers)
-* [🆚 Bash vs zsh](#🆚-bash-vs-zsh)
-    * [⚖️ Comparaison des fonctionnalités](#⚖️-comparaison-des-fonctionnalités)
-    * [📥 Installation](#📥-installation)
-* [🪛 Frameworks](#🪛-frameworks)
+    * [🔍 Divers](#-divers)
+* [🆚 Bash vs zsh](#-bash-vs-zsh)
+    * [📊 Comparaison des fonctionnalités](#-comparaison-des-fonctionnalités)
+    * [📥 Installation](#-installation)
+* [🪛 Frameworks](#-frameworks)
 
 
 ## 🔧 Commandes
@@ -60,7 +60,7 @@
 | `chmod`              | Modifier les permissions d'un utilisateur.           | `chmod 700 [file.txt]` 700 : utilisateur = r, w, x. groupe et autre n'ont pas de permission |
 | `ls -l`              | Vérifier les permissions d'un dossier ou fichier.    | `ls -l [file.txt]`     |
 
-### ⌨️ Raccourcis
+### ⌨ Raccourcis
 #### Raccourcis pour Bash
 
 | Navigation | Description                           |
@@ -151,7 +151,7 @@
 | p          | Coller le texte copié ou coupé                   |
 
 
-### 🗃️ Divers
+### 🔍 Divers
 
 | Commande      | Description                                   | Exemple                               |
 | ------------- | --------------------------------------------- | ------------------------------------- |
@@ -166,7 +166,7 @@
 
 Bash est le shell par défaut sur plusieurs types de distributions Linux, il existe d'autres shells comme zsh, fish, dash etc...
 
-### ⚖️ Comparaison des fonctionnalités
+### 📊 Comparaison des fonctionnalités
 
 | Fonctionnalité      | Bash                                   | Zsh                               |
 | ------------- | --------------------------------------------- | ------------------------------------- |
