@@ -1,26 +1,26 @@
 # Linux terminal cheatsheet
 
-## Sommaire
-* [Commandes](#commandes)
-    * [Navigation / Gestion de dossiers](#navigation--gestion-de-dossiers)
-    * [Manipulation de fichiers](#manipulation-de-fichiers)
-    * [Permissions](#permissions)
-    * [Raccourcis](#raccourcis)
+## 📌 Sommaire
+* [🔧 Commandes](#🔧-commandes)
+    * [📁 Navigation / Gestion de dossiers](#📁-navigation--gestion-de-dossiers)
+    * [📝 Manipulation de fichiers](#📝-manipulation-de-fichiers)
+    * [🔐 Permissions](#🔐-permissions)
+    * [⌨️ Raccourcis](#⌨️-raccourcis)
         * [Raccourcis Bash](#raccourcis-pour-bash)
         * [Raccourcis zsh](#raccourcis-zsh)
         * [Raccourcis Nano](#raccourcis-nano)
         * [Raccourcis Vim](#raccourcis-vim)
-    * [Divers](#divers)
-* [Bash vs zsh](#bash-vs-zsh)
-    * [Comparaison des fonctionnalités](#comparaison-des-fonctionnalités)
-    * [Installation](#installation)
-* [Frameworks](#frameworks)
-    * [Installation](#installation-1)
+    * [🗃️ Divers](#🗃️-divers)
+* [🆚 Bash vs zsh](#🆚-bash-vs-zsh)
+    * [⚖️ Comparaison des fonctionnalités](#⚖️-comparaison-des-fonctionnalités)
+    * [📥 Installation](#📥-installation)
+* [🪛 Frameworks](#🪛-frameworks)
+    * [📥 Installation](#📥-installation-1)
 
 
-## Commandes
+## 🔧 Commandes
 
-### Navigation / Gestion de dossiers
+### 📁 Navigation / Gestion de dossiers
 |Commande|Description|Exemple|
 |--------|-----------|-------|
 |`pwd`|Affiche le chemin du répertoire courant|`pwd` : `/home/user/cda`|
@@ -38,7 +38,7 @@
 | `rm -r dossier`| Supprime un dossier et son contenu | `rm -r projet`|
 
 
-### Manipulation de fichiers
+### 📝 Manipulation de fichiers
 
 | Commande | Description | Exemple |
 |--|--|--|
@@ -50,7 +50,7 @@
 `tail`, pour suivre des modifications | `-f`: Montre les changements lorsqu'ils arrivent, suit le fichier même à travers les renommages.<br>`--follow=name`: Suit uniquement le fichier du même nom.<br>`--retry`: Réessayer de lire lorsque l'accès est refusé.<br>`-s`: Temps avec retry. | `tail README.md -F`<br>Lit le README dans son entièreté, montre les mises à jour 
 <ins>`TEXTE`</ins>` > `<ins>`FICHIER`</ins> | Insère le texte (en dur, d'une commande) au fichier. | `head README.md -n 5 > test.txt`<br>Copie les 5 premières lignes de README.md dans le fichier test.txt.
 
-### Permissions
+### 🔐 Permissions
 
 | Commande             | Description                                          | Exemple           |
 | -------------------- | ---------------------------------------------------- | ----------------- |
@@ -60,7 +60,7 @@
 | `chmod`              | Modifier les permissions d'un utilisateur.           | `chmod 700 [file.txt]` 700 : utilisateur = r, w, x. groupe et autre n'ont pas de permission |
 | `ls -l`              | Vérifier les permissions d'un dossier ou fichier.    | `ls -l [file.txt]`     |
 
-### Raccourcis
+### ⌨️ Raccourcis
 #### Raccourcis pour Bash
 
 | Navigation | Description                           |
@@ -151,7 +151,7 @@
 | p          | Coller le texte copié ou coupé                   |
 
 
-### Divers
+### 🗃️ Divers
 
 | Commande      | Description                                   | Exemple                               |
 | ------------- | --------------------------------------------- | ------------------------------------- |
@@ -162,11 +162,11 @@
 | `curl -0 URL` | Télécharger un fichier.                       | `curl -O http://example.com/file.zip` |
 | `tar`         | Archivage et compression.                     | `tar -xvf archive.tar`                |
 
-## Bash vs zsh
+## 🆚 Bash vs zsh
 
 Bash est le shell par défaut sur plusieurs types de distributions Linux, il existe d'autres shells comme zsh, fish, dash etc...
 
-### Comparaison des fonctionnalités
+### ⚖️ Comparaison des fonctionnalités
 
 | Fonctionnalité      | Bash                                   | Zsh                               |
 | ------------- | --------------------------------------------- | ------------------------------------- |
@@ -175,7 +175,7 @@ Bash est le shell par défaut sur plusieurs types de distributions Linux, il exi
 | Plugins et thèmes       | Non                             |  Oui         |
 | Personnalisation       | Limitée                             |  Beaucoup d'options disponibles         |
 
-### Installation
+### 📥 Installation
 
 
 | Outil  | Debian/Ubuntu (`apt`)| Arch Linux (`pacman`)| macOS (`brew`)| Documentation|
@@ -196,7 +196,7 @@ Par exemple, pour zsh:
 Ceci changera le shell par défaut pour cet utilisateur à zsh.
 
 
-## Frameworks
+## 🪛 Frameworks
 
 ### Bash-it :
 *Bash-it est un framework open source pour configurer le shell Bash, Bash-it apporte plus de fonctionnalités tel que : alias prédéfinis, l'auto-complétion, plugins, thèmes etc.*
