@@ -1,28 +1,25 @@
 # Linux terminal cheatsheet
 
-## Sommaire
-* [Commandes](#commandes)
-    * [Navigation / Gestion de dossiers](#navigation--gestion-de-dossiers)
-    * [Manipulation de fichiers](#manipulation-de-fichiers)
-    * [Permissions](#permissions)
-    * [Raccourcis](#raccourcis)
+## 📌 Sommaire
+* [🔧 Commandes](#🔧-commandes)
+    * [📁 Navigation / Gestion de dossiers](#📁-navigation--gestion-de-dossiers)
+    * [📝 Manipulation de fichiers](#📝-manipulation-de-fichiers)
+    * [🔐 Permissions](#🔐-permissions)
+    * [⌨️ Raccourcis](#⌨️-raccourcis)
         * [Raccourcis Bash](#raccourcis-pour-bash)
         * [Raccourcis zsh](#raccourcis-zsh)
         * [Raccourcis Nano](#raccourcis-nano)
         * [Raccourcis Vim](#raccourcis-vim)
-    * [Divers](#divers)
-* [Bash vs zsh](#bash-vs-zsh)
-    * [Comparaison des fonctionnalités](#comparaison-des-fonctionnalités)
-    * [Installation](#installation)
-* [Frameworks](#frameworks)
-    * [Installation](#installation-1)
+    * [🗃️ Divers](#🗃️-divers)
+* [🆚 Bash vs zsh](#🆚-bash-vs-zsh)
+    * [⚖️ Comparaison des fonctionnalités](#⚖️-comparaison-des-fonctionnalités)
+    * [📥 Installation](#📥-installation)
+* [🪛 Frameworks](#🪛-frameworks)
 
 
-## Commandes
+## 🔧 Commandes
 
-### Navigation / Gestion de dossiers
-------------------------------------
------------------------------------
+### 📁 Navigation / Gestion de dossiers
 |Commande|Description|Exemple|
 |--------|-----------|-------|
 |`pwd`|Affiche le chemin du répertoire courant|`pwd` : `/home/user/cda`|
@@ -40,10 +37,11 @@
 | `rm -r dossier`| Supprime un dossier et son contenu | `rm -r projet`|
 
 
-### Manipulation de fichiers
+### 📝 Manipulation de fichiers
 
 | Commande | Description | Exemple |
 |--|--|--|
+`mv [OPTION(S)] `<ins>`SOURCE`</ins>` `<ins>`DESTINATION`</ins> | Déplace un fichier vers une autre destination. Peut aussi servir à renommer. | `mv ficier.txt fichier.txt`<br>Renomme `ficier.txt` en `fichier.txt`<br><br>`mv fichier.txt dossier/fichier.txt`<br>Déplace `fichier.txt` dans `dossier`
 `rm [OPTION(S)] [FICHIER]`|Supprime un fichier.|`rm fichier.txt`<br>Supprime fichier.txt
 `cat [OPTION(S)] [FICHIER(S)]` | Montre le contenu d'un ou plusieurs fichiers.  | `cat input.txt - append.txt`<br>Montre le contenu de input.txt, stdin, et append.txt.
 `touch `<ins>`FICHIER`</ins> | Créer un fichier ou modifier la date de modification.<br>`-c`: Ne pas créer de fichier. | `touch text.txt`<br>Créé le fichier text.txt, ou s'il n'existe pas, modifie sa date.
@@ -52,7 +50,7 @@
 `tail`, pour suivre des modifications | `-f`: Montre les changements lorsqu'ils arrivent, suit le fichier même à travers les renommages.<br>`--follow=name`: Suit uniquement le fichier du même nom.<br>`--retry`: Réessayer de lire lorsque l'accès est refusé.<br>`-s`: Temps avec retry. | `tail README.md -F`<br>Lit le README dans son entièreté, montre les mises à jour 
 <ins>`TEXTE`</ins>` > `<ins>`FICHIER`</ins> | Insère le texte (en dur, d'une commande) au fichier. | `head README.md -n 5 > test.txt`<br>Copie les 5 premières lignes de README.md dans le fichier test.txt.
 
-### Permissions
+### 🔐 Permissions
 
 | Commande             | Description                                          | Exemple           |
 | -------------------- | ---------------------------------------------------- | ----------------- |
@@ -62,7 +60,7 @@
 | `chmod`              | Modifier les permissions d'un utilisateur.           | `chmod 700 [file.txt]` 700 : utilisateur = r, w, x. groupe et autre n'ont pas de permission |
 | `ls -l`              | Vérifier les permissions d'un dossier ou fichier.    | `ls -l [file.txt]`     |
 
-### Raccourcis
+### ⌨️ Raccourcis
 #### Raccourcis pour Bash
 
 | Navigation | Description                           |
@@ -153,7 +151,7 @@
 | p          | Coller le texte copié ou coupé                   |
 
 
-### Divers
+### 🗃️ Divers
 
 | Commande      | Description                                   | Exemple                               |
 | ------------- | --------------------------------------------- | ------------------------------------- |
@@ -164,11 +162,11 @@
 | `curl -0 URL` | Télécharger un fichier.                       | `curl -O http://example.com/file.zip` |
 | `tar`         | Archivage et compression.                     | `tar -xvf archive.tar`                |
 
-## Bash vs zsh
+## 🆚 Bash vs zsh
 
 Bash est le shell par défaut sur plusieurs types de distributions Linux, il existe d'autres shells comme zsh, fish, dash etc...
 
-### Comparaison des fonctionnalités
+### ⚖️ Comparaison des fonctionnalités
 
 | Fonctionnalité      | Bash                                   | Zsh                               |
 | ------------- | --------------------------------------------- | ------------------------------------- |
@@ -177,7 +175,7 @@ Bash est le shell par défaut sur plusieurs types de distributions Linux, il exi
 | Plugins et thèmes       | Non                             |  Oui         |
 | Personnalisation       | Limitée                             |  Beaucoup d'options disponibles         |
 
-### Installation
+### 📥 Installation
 
 
 | Outil  | Debian/Ubuntu (`apt`)| Arch Linux (`pacman`)| macOS (`brew`)| Documentation|
@@ -198,7 +196,7 @@ Par exemple, pour zsh:
 Ceci changera le shell par défaut pour cet utilisateur à zsh.
 
 
-## Frameworks
+## 🪛 Frameworks
 
 ### Bash-it :
 *Bash-it est un framework open source pour configurer le shell Bash, Bash-it apporte plus de fonctionnalités tel que : alias prédéfinis, l'auto-complétion, plugins, thèmes etc.*
@@ -267,8 +265,14 @@ bash-it theme set BarbUk
 #### 🚀 Oh My Zsh :  [documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
 *Oh My Zsh est un framework open source et communautaire pour gérer la configuration Zsh, qui améliore Zsh avec des thèmes, des plugins et une configuration optimisée, rendant le terminal plus puissant et agréable à utiliser.*
 
-#### Installation avec cURL : `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-#### Installation avec Wget : `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+#### Installation avec cURL
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+#### Installation avec Wget
+```bash
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 #### Personalisation et Configuration 
 
