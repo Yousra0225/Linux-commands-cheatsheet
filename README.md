@@ -42,6 +42,7 @@
 
 | Commande | Description | Exemple |
 |--|--|--|
+`mv [OPTION(S)] `<ins>`SOURCE`</ins>` `<ins>`DESTINATION`</ins> | Déplace un fichier vers une autre destination. Peut aussi servir à renommer. | `mv ficier.txt fichier.txt`<br>Renomme `ficier.txt` en `fichier.txt`<br><br>`mv fichier.txt dossier/fichier.txt`<br>Déplace `fichier.txt` dans `dossier`
 `rm [OPTION(S)] [FICHIER]`|Supprime un fichier.|`rm fichier.txt`<br>Supprime fichier.txt
 `cat [OPTION(S)] [FICHIER(S)]` | Montre le contenu d'un ou plusieurs fichiers.  | `cat input.txt - append.txt`<br>Montre le contenu de input.txt, stdin, et append.txt.
 `touch `<ins>`FICHIER`</ins> | Créer un fichier ou modifier la date de modification.<br>`-c`: Ne pas créer de fichier. | `touch text.txt`<br>Créé le fichier text.txt, ou s'il n'existe pas, modifie sa date.
