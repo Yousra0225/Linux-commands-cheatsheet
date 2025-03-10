@@ -15,7 +15,6 @@
     * [⚖️ Comparaison des fonctionnalités](#⚖️-comparaison-des-fonctionnalités)
     * [📥 Installation](#📥-installation)
 * [🪛 Frameworks](#🪛-frameworks)
-    * [📥 Installation](#📥-installation-1)
 
 
 ## 🔧 Commandes
