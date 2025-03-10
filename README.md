@@ -10,9 +10,9 @@
         * [Raccourcis zsh](#raccourcis-zsh)
         * [Raccourcis Nano](#raccourcis-nano)
         * [Raccourcis Vim](#raccourcis-vim)
-    * [🗃️ Divers](#-divers)
+    * [🔍 Divers](#-divers)
 * [🆚 Bash vs zsh](#-bash-vs-zsh)
-    * [🛠️ Comparaison des fonctionnalités](#-comparaison-des-fonctionnalités)
+    * [📊 Comparaison des fonctionnalités](#-comparaison-des-fonctionnalités)
     * [📥 Installation](#-installation)
 * [🪛 Frameworks](#-frameworks)
 
@@ -151,7 +151,7 @@
 | p          | Coller le texte copié ou coupé                   |
 
 
-### 🗃️ Divers
+### 🔍 Divers
 
 | Commande      | Description                                   | Exemple                               |
 | ------------- | --------------------------------------------- | ------------------------------------- |
@@ -166,7 +166,7 @@
 
 Bash est le shell par défaut sur plusieurs types de distributions Linux, il existe d'autres shells comme zsh, fish, dash etc...
 
-### 🛠️ Comparaison des fonctionnalités
+### 📊 Comparaison des fonctionnalités
 
 | Fonctionnalité      | Bash                                   | Zsh                               |
 | ------------- | --------------------------------------------- | ------------------------------------- |
